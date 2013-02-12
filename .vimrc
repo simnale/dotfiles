@@ -1,7 +1,9 @@
+call pathogen#infect()
+
 filetype plugin indent on
 syntax on
 
-colorscheme molokai
+colorscheme molokai 
 
 set nocompatible
 set nowrap
@@ -19,7 +21,7 @@ set noerrorbells
 set nobackup
 set noswapfile
 
-set guifont=Monaco:h13
+set guifont=Monaco:h12
 
 " hide titlebar
 set guioptions-=T
